@@ -1,0 +1,26 @@
+name: Metrics
+on:
+  # Refresh once a day, and whenever the README changes
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Scope-less personal token: only public data is read
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Racheme
+          template: classic
+          config_timezone: Asia/Jakarta
+          base: header, activity, community, repositories
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_other: yes

@@ -18,3 +18,7 @@ I'm a Computer Science student at **BINUS University**, currently working as a d
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat&logo=swift&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white)
+
+#### 📊 Stats
+
+<p align="center"><img src="/github-metrics.svg" alt="GitHub metrics"></p>
