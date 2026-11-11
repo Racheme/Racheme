@@ -1,4 +1,4 @@
-### Hey, I'm Devandra 👋
+### Hey, I'm Devan 👋
 
 I'm a Computer Science student at **BINUS University**, currently working as a developer intern. I like building things people actually use every day, from the internal tools a team runs on to little macOS apps that make my own setup nicer.
 
